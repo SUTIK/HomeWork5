@@ -20,4 +20,11 @@ public class CylinderContainer extends Container {
         double mass = vCylinder*1000;
         return mass;
     }
+
+    @Override
+    public Boolean getIsBig() {
+        if (isBig()){
+        return true;}
+        else {return false;}
+    }
 }

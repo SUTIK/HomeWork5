@@ -20,4 +20,13 @@ public class KonusContainer extends Container {
         double mass = vKonus*1000;
         return mass;
     }
+
+    @Override
+    public Boolean getIsBig() {
+        if (isBig()){
+            return true;}
+        else {return false;}
+    }
+
+
 }

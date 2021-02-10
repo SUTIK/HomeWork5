@@ -23,6 +23,13 @@ public class SquareContainer extends Container {
 
     }
 
+    @Override
+    public Boolean getIsBig() {
+        if (isBig()){
+            return true;}
+        else {return false;}
+    }
+
 }
 
 

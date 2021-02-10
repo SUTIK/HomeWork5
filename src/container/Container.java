@@ -32,6 +32,8 @@ public abstract class Container {
     }
 
     public abstract double getMass();
+    public abstract Boolean getIsBig();
+
 
 }
 
